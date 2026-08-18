@@ -1,0 +1,23 @@
+{
+  "name": "ie-mode-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "selenium-webdriver": "^4.47.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/selenium-webdriver": "^4.1.28",
+    "typescript": "^5.9.0"
+  }
+}
